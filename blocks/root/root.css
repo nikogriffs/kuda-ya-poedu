@@ -1,0 +1,11 @@
+ .root{
+     background-color: #fff;
+     max-width: 100%;
+     font-family: "Helvetica Neue", "Arial", sans-serif;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     color: #0A0A0A;
+     -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+}
