@@ -1,0 +1,32 @@
+/*.video__play-icon {
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background: black;
+  opacity: .5;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}*/
+
+.video__play-icon {
+	width: 67px;
+	height: 67px;
+	background:black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  opacity: .5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+}

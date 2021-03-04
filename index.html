@@ -11,8 +11,77 @@
 
 <body class="root">
   <header class="header"></header>
-  <main></main>
-  <footer class="footer"></footer>
+  <main>
+    <section class="quotes">
+      <h2 class="quotes__title">Люди</h2>
+      <p class="quotes__subtitle">Что говорят и говорили люди о путешествиях</p>
+      <ul class="quotes__quotes-zone">
+        <li>
+          <h3 class="quotes__author">Иван Бунин</h3>
+          <blockquote class="quotes__blockquote">Человека делают счастливым три вещи: любовь, интересная работа и
+            возможность путешествовать.</blockquote>
+        </li>
+        <li>
+          <h3 class="quotes__author">Альбер Камю</h3>
+          <blockquote class="quotes__blockquote">Путешествие как самая великая и серьёзная наука помогает нам вновь
+            обрести себя.</blockquote>
+        </li>
+        <li>
+          <h3 class="quotes__author">Норвежская пословица</h3>
+          <blockquote class="quotes__blockquote">Лишь тот, кто странствует, открывает новые пути.</blockquote>
+        </li>
+        <li>
+          <h3 class="quotes__author">Мария Захарова</h3>
+          <blockquote class="quotes__blockquote">В принципе зарубежная поездка - это серьёзнейшее , ответственнейшее и
+            очень рискованное предприятие.</blockquote>
+        </li>
+      </ul>
+    </section>
+
+    <section class="forms">
+
+      <div class="forms__forms-zone">
+        <form class="forms__form">
+
+          <h2 class="title">Так куда же я поеду?</h2>
+
+          <div class="input">
+            <input>
+            <label>Email</label>
+          </div>
+          <div>
+            <input>
+            <label>Пароль</label>
+          </div>
+
+          <button disabled>Войти</button>
+
+        </form>
+        <div class="forms__background"></div>
+      </div>
+    </section>
+    <section class="video">
+
+      <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+        <img class="video__thumbnail" src="./images/video.jpg" style="cursor:pointer" />
+        <p class="video__text">А пока что - всё ещё сидим дома!</p>
+        <div class="video__play-icon">
+          <div class="video__play-triangle"></div>
+        </div>
+
+      </div>
+
+      <div class="video__iframes" style="display:none">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/JGNiMutYBm4?rel=0&autoplay=1" frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">© 2021. Неменова Виктория x Комаров Николай</p>
+  </footer>
 </body>
 
 </html>

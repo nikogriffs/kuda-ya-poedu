@@ -1,0 +1,11 @@
+.forms__forms-zone {
+  max-height: 540px;
+  height: 50vh;
+
+  display: flex;
+  justify-content: space-between;
+
+
+  max-width: 1110px;
+  position: relative;
+}
