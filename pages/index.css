@@ -19,10 +19,9 @@
 @import url(../blocks/direction/__text-cell/direction__text-cell.css);
 @import url(../blocks/direction/__title/direction__title.css);
 
-
-div {
+/* div {
     border: 1px solid red;
 }
 section {
     border: 1px solid blueviolet;
-}
+} */
