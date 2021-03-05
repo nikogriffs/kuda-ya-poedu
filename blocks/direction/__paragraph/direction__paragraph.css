@@ -10,3 +10,8 @@
  .direction__paragraph:nth-of-type(3) {
      padding-bottom: 0;
 }
+ @media screen and (max-width: 450px) {
+     .direction__paragraph{
+         font-size: 10px;
+    }
+}

@@ -5,6 +5,12 @@
      max-width: 1164px;
      margin: auto;
      padding: 38px 0 0;
-     border: 1 px solid olive;
      align-content: flex-end;
 }
+ @media screen and (max-width: 450px){
+     .header{
+         width: 90%;
+         padding: 10px 0 0;
+    }
+}
+ 

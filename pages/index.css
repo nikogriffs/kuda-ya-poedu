@@ -7,11 +7,12 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__heading/lead__heading.css);
-@import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__text/lead__text.css);
+@import url(../blocks/lead/__content/lead__content.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/direction/direction.css);
+@import url(../blocks/direction/_place/direction_place_first.css);
+@import url(../blocks/direction/_place/direction_place_second.css);
 @import url(../blocks/direction/__image/direction__image.css);
 @import url(../blocks/direction/__paragraph/direction__paragraph.css);
 @import url(../blocks/direction/__paragraphs/direction__paragraphs.css);
