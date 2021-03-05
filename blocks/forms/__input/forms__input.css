@@ -1,12 +1,14 @@
 .forms__input {
-  max-width: 310px;
-  margin-bottom: 15px;
-  padding: 0;
-  border: 0;
+     max-width: 310px;
+     width: 30%;
+     margin-bottom: 15px;
+     padding: 0;
+     border: none;
+     resize: none;
 }
-
-@media screen and (max-width: 767px) {
-  .forms__input {
-  max-width: 240px;
-  }
+ @media screen and (max-width: 750px) {
+     .forms__input {
+         width: 50%;
+    }
 }
+ 

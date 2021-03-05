@@ -1,13 +1,8 @@
 .forms {
-  max-height: 540px;
-  height: 50vh;
-  display: flex;
-  margin: 0 auto;
-  max-width: 1280px;
+     height: 58vw;
+     min-height: 350px;
+     display: flex;
+     margin: 0 auto;
+     max-width: 1440px;
 }
-
-@media screen and (max-width: 767px) {
-  .forms {
-    height: 60vh;
-  }
-}
+ 

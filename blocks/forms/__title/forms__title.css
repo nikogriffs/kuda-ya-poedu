@@ -1,23 +1,17 @@
 .forms__title {
-  margin: 0;
-  margin-top: 122px;
-  margin-bottom: 65px;
-  max-width: 210px;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 1.284;
-  letter-spacing: -0.01em;
-  }
-
-  @media screen and (max-width: 450px) {
-    .forms__title {
-      font-size: 20px;
+     margin: 0;
+     margin-top: 10%;
+     margin-bottom: 7%;
+     max-width: 210px;
+     font-size: 30px;
+     font-weight: bold;
+     line-height: 1.284;
+     letter-spacing: -0.01em;
+}
+ @media screen and (max-width: 800px) {
+     .forms__title {
+         font-size: 20px;
+         margin-top: 5%;
+         margin-bottom: 5%;
     }
-  }
-
-  @media screen and (max-width: 767px) {
-    .forms__title {
-      margin-top: 60px;
-      margin-bottom: 30px;
-    }
-  }
+}
