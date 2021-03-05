@@ -1,0 +1,11 @@
+ .direction {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 462px;
+}
+ @media screen and (max-width: 620px) {
+     .direction{
+         grid-template-columns: 1fr;
+ grid-template-rows: 400px 400px;
+    }
+}

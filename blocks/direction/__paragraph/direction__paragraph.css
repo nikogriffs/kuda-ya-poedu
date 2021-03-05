@@ -1,0 +1,17 @@
+ .direction__paragraph {
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 1.459;
+     letter-spacing: -0.015em;
+     margin: 0;
+     padding-bottom: 20px;
+     max-width: 321px;
+}
+ .direction__paragraph:nth-of-type(3) {
+     padding-bottom: 0;
+}
+ @media screen and (max-width: 450px) {
+     .direction__paragraph{
+         font-size: 10px;
+    }
+}

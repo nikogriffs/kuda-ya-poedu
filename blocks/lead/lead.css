@@ -1,0 +1,12 @@
+ .lead {
+     display: flex;
+     justify-content: space-between;
+     width: calc(100% - 58px*2);
+     max-width: 1164px;
+     margin: auto;
+}
+ @media screen and (max-width: 780px){
+     .lead{
+         width: 100%;
+    }
+}

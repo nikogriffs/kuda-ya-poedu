@@ -1,0 +1,5 @@
+@media screen and (max-width: 620px) {
+    .direction_place_first{
+    grid-row: 1;
+}
+}
