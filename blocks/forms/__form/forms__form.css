@@ -1,22 +1,16 @@
 .forms__form {
   display: flex;
   flex-direction: column;
-
-  background-color: silver;
-
-  max-width: 555px;
   width: 100%;
-  height: 100%;
-padding: 0 5px;
-
-margin: 0;
-  box-shadow: 0 4px 16px #ccc;
-  font-family: sans-serif;
-  letter-spacing: 1px;
+  margin: 0 58px;
+  min-width: 310px;
 }
 
-.input {
-  max-width: 310px;
+@media screen and (max-width: 767px) {
+.forms__form{
+  margin: 0 5px;
+  justify-content: center;
+}
 }
 
 

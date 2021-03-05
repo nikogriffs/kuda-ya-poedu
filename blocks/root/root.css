@@ -1,6 +1,11 @@
 .root {
-  font-family: ‘Roboto mono’, sans-serif;
   margin: 0 auto;
-  max-width: 1110px;
+  max-width: 1280px;
   min-width: 320px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
