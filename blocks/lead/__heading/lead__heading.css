@@ -13,6 +13,7 @@
  @media screen and (max-width: 964px){
      .lead__heading{
          padding-top: 175px;
+         margin-left: 61px;
          color: white;
     }
 }
