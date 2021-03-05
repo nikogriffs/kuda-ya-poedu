@@ -1,0 +1,26 @@
+.quotes__subtitle {
+  padding: 0;
+  margin: 30px 58px 0;
+  max-width: 345px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.284;
+  letter-spacing: -0.01em;
+  max-width: 470px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .quotes__subtitle {
+  margin: 30px 58px 50px;
+  max-width: 370px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .quotes__subtitle {
+  margin: 30px 54px 75px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quotes__subtitle {
+  font-size: 20px;
+  }
+}

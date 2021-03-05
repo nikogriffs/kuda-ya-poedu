@@ -1,0 +1,14 @@
+.forms__container {
+  background-color:#f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  max-width: 640px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .forms__container {
+  max-width: 320px;
+  }
+}

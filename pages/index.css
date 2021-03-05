@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/forms/__input/_second/forms__input_second.css);
 @import url(../blocks/link-opacity-change/link-opacity-change.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
@@ -19,7 +21,29 @@
 @import url(../blocks/direction/__paragraphs/direction__paragraphs.css);
 @import url(../blocks/direction/__text-cell/direction__text-cell.css);
 @import url(../blocks/direction/__title/direction__title.css);
-
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__title/quotes__title.css);
+@import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
+@import url(../blocks/quotes/__quotes-zone/quotes__quotes-zone.css);
+@import url(../blocks/quotes/__author/quotes__author.css);
+@import url(../blocks/quotes/__blockquote/quotes__blockquote.css);
+@import url(../blocks/prov/prov.css);
+@import url(../blocks/video/__thumbnail/video__thumbnail.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__play-icon/video__play-icon.css);
+@import url(../blocks/video/__play-triangle/video__play-triangle.css);
+@import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/forms/forms.css);
+@import url(../blocks/forms/__background/forms__background.css);
+@import url(../blocks/forms/__form/forms__form.css);
+@import url(../blocks/forms/__button/forms__button.css);
+@import url(../blocks/forms/__container/forms__container.css);
+@import url(../blocks/forms/__input/forms__input.css);
+@import url(../blocks/forms/__title/forms__title.css);
 /* div {
     border: 1px solid red;
 }

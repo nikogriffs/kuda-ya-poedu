@@ -1,0 +1,23 @@
+.video__text {
+  position: absolute;
+  top: 122px;
+  left: 60px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.284;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 767px) {
+  .video__text {
+    top: 60px;
+    left: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .video__text {
+    font-size: 20px;
+  }
+}

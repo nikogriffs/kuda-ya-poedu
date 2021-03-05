@@ -1,0 +1,25 @@
+.quotes__quotes-zone {
+  margin: 100px 58px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  gap: 60px;
+  padding: 0;
+  max-width: 1164px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .quotes__quotes-zone {
+  margin: 50px 58px;
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .quotes__quotes-zone {
+    margin: 25px 54px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    min-width: 100px;
+  }
+}

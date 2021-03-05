@@ -1,0 +1,8 @@
+.forms__background {
+  background-image: url(../../../images/airport-schedule.jpg);
+  max-width: 640px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom right;
+}
